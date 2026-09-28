@@ -1,0 +1,26 @@
+{
+  "name": "OpenNotes — Handwritten Notes",
+  "short_name": "OpenNotes",
+  "description": "Free, open-source handwritten notes. Pressure-sensitive ink, PDF export, offline-first. Your data never leaves your device.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3ede1",
+  "theme_color": "#8a5a32",
+  "categories": ["productivity", "education"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "New notebook",
+      "short_name": "New note",
+      "description": "Open OpenNotes ready to create a notebook",
+      "url": "/?action=new"
+    }
+  ]
+}
